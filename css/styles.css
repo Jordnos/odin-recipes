@@ -33,3 +33,9 @@ img {
 .steps li {
     color:rgba(69, 69, 187, 0.753);
 }
+
+#back-to-menu-button {
+    font-size: 15px;
+    color:rgb(231, 0, 0);
+    background-color: rgba(9, 255, 0, 0.425);
+}
