@@ -6,11 +6,12 @@
 
 h1, h2 {
     font-weight: bold;
-    color:rgba(164, 97, 226, 0.89)
+    color:rgba(164, 97, 226, 0.89);
 }
 
 h1 {
     font-size: 30px;
+    margin: 10px;
 }
 
 h2 {
@@ -20,22 +21,76 @@ h2 {
 img {
     width: 750px;
     height: 300px;
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+}
+
+/* Recipes section */
+.recipes-section {
+    border-color: rgba(164, 97, 226, 0.89);
+    background-color: rgb(108, 238, 255);
+}
+
+ul.recipe-list {
+    margin: 0px;
 }
 
 .recipe-list a {
-    background-color:darkturquoise;
+    display: block;
+    padding: 5px;
 }
 
+/* Ingredients section */
 .ingredients li {
     color:rgba(84, 136, 32, 0.692) ;
 }
 
+.ingredients-section {
+    border-color: rgba(164, 97, 226, 0.89);
+    background-color: rgb(255, 190, 190);
+}
+
+/* Steps Section */
 .steps li {
     color:rgba(69, 69, 187, 0.753);
 }
+
+.steps-section {
+    border-color: rgba(164, 97, 226, 0.89);
+    background-color: rgb(143, 255, 177);
+}
+
+/* All sections */
+.recipes-section,
+.ingredients-section,
+.steps-section {
+    border: 5px;
+    border-style: solid; 
+    border-color: rgba(164, 97, 226, 0.89);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.ingredients-section h2,
+.steps-section h2 {
+    margin-top: 0px;
+}
+
+.recipes-section *,
+.ingredients-section *,
+.steps-section * {
+    background-color: inherit;
+}
+
+/* Other */
 
 #back-to-menu-button {
     font-size: 15px;
     color:rgb(231, 0, 0);
     background-color: rgba(9, 255, 0, 0.425);
+    margin: 10px;
 }
